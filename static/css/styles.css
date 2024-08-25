@@ -1,7 +1,7 @@
 .fondo {
     height: 320px;
     width: 100%;
-    background-image: url('/img/fondo.jpg');
+    background-image: url('./img/fondo.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     
