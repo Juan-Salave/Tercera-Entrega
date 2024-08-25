@@ -91,11 +91,6 @@ for ( let i = 0; i < productosFruta.length; i++){
     nombreFruta.classList = 'card-title m-0';
     nombreFruta.textContent = `${productosFruta[i].nombre} = $${productosFruta[i].precio}`;
     divCardBody.appendChild(nombreFruta);
-    
-    // const precio = document.createElement('h5');
-    // precio.classList = 'card-title text-warning m-';
-    // precio.textContent = '$'+ productosFruta[i].precio;
-    // divCardBody.appendChild(precio);
 
     const button = document.createElement('button');
     button.classList = 'btn btn-warning btn-sm mt-2';
