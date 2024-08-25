@@ -3,8 +3,7 @@
     width: 100%;
     background-image: url('/static/img/fondo.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;    
 }
 img {
     width: 18rem;
