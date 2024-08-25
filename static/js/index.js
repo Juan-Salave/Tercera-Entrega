@@ -22,7 +22,7 @@ navBar.appendChild(divNavBar);
 const navegacion = [
     { nombr :'Fruteria',    ir : 'Tercera-Entrega/index.html' }, 
     { nombr :'Ver Carrito', ir : '/pages/carrito.html'},
-    { nombr :'Pagar',       ir : './static/pages/pagar.html'} 
+    { nombr :'Pagar',       ir : 'Tercera-Entrega/pages/pagar.html'} 
 ]
 navegacion.forEach(function(enla){
     let enlace = document.createElement('a');
