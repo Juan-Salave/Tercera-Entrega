@@ -20,7 +20,7 @@ divNavBar.classList = 'container-fluid'
 navBar.appendChild(divNavBar);
 
 const navegacion = [
-    { nombr :'Fruteria',    ir : './index.html' }, 
+    { nombr :'Fruteria',    ir : 'Tercera-Entrega/index.html' }, 
     { nombr :'Ver Carrito', ir : '../static/pages/carrito.html'},
     { nombr :'Pagar',       ir : './static/pages/pagar.html'} 
 ]
