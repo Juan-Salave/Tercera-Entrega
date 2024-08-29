@@ -104,6 +104,13 @@ for ( let i = 0; i < productosFruta.length; i++){
     })
     button.addEventListener('click', () => {
         agregar(productosFruta[i]);
+        Toastify({
+            text: `Se agrego ${productosFruta[i].nombre}`,
+            className: "info",
+            style: {
+              background: "linear-gradient(to right, #96c93d, #96c93d)",
+            }
+        }).showToast();
     })
 
     const agregar = (producto) => {
